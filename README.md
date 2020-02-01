@@ -7,5 +7,5 @@ A Webpack based to quickly start up a React application.
 **To start dev server after initial install:**
 ```npm run dev```
 
-** To compile for production run:**
+**To compile for production run:**
 ```npm run build ```
