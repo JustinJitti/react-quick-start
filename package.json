@@ -1,0 +1,40 @@
+{
+  "name": "react-quick-start",
+  "version": "1.0.0",
+  "description": "A Webpack based to quickly start up a React application.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinJitti/react-quick-start.git"
+  },
+  "author": "JJ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustinJitti/react-quick-start.git/issues"
+  },
+  "homepage": "https://github.com/JustinJitti/react-quick-start.git#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
